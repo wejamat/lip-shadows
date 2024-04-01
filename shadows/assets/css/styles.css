@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,400;1,100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* type */
+h1 {
+  @apply text-4xl lg:text-5xl font-head text-sky-500 leading-10 mb-8;
+}
+h2 {
+  @apply text-3xl lg:text-4xl font-head leading-9 my-4;
+}
+h2 {
+  @apply text-2xl lg:text-3xl font-head leading-8;
+}
+h3 {
+  @apply text-xl lg:text-2xl font-body leading-6;
+}
+
+h4 {
+  @apply lg:text-xl font-body font-semibold;
+}
+
+body {
+  @apply font-body leading-5 text-zinc-700;
+}
+
+a {
+  @apply underline decoration-dotted underline-offset-2 decoration-prime-200 text-prime-200;
+}
+a:hover {
+  @apply underline decoration-dotted underline-offset-2 decoration-prime-100 text-prime-100;
+}
+p {
+  @apply mb-4;
+}
+
+.btn {
+  @apply bg-prime-300 text-white rounded-md px-8 py-2 my-2;
+}
+.btn:hover {
+  @apply bg-prime-100;
+}
+.container {
+  @apply px-5 md:px-10 lg:px-20;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
